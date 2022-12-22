@@ -16,7 +16,7 @@ Una vez instaladas las dependencias, puedes utilizar el módulo importándolo en
 <br>
 
 
-Opción 1: Parámetros individuales basicos
+Opción 1: Parámetros individuales basicos.
 
 ```python
 from hubspain.generation import stablediffusion
@@ -58,3 +58,10 @@ Opción 2: Diccionario de parámetros avanzado.
     for i, image_bytes in enumerate(images):
         image_bytes.save(f"image{i}_opcion2.png")
 ```
+
+### License
+This project is licensed under the MIT license. For more information, see the [LICENSE]('https://github.com/flowese/hubspain-tools/blob/main/README.md') file.
+<br>
+
+### Author
+Developed by [@flowese]('https://github.com/flowese').
