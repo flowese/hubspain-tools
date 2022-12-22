@@ -59,6 +59,11 @@ Opción 2: Diccionario de parámetros avanzado.
         image_bytes.save(f"image{i}_opcion2.png")
 ```
 
+### Existe una versión async de la librería, simplemente debe importarse de la siguiente manera:
+```python
+from hubspain.generation import async_stablediffusion
+```
+
 ### License
 This project is licensed under the MIT license. For more information, see the [LICENSE]('https://github.com/flowese/hubspain-tools/blob/main/README.md') file.
 <br>
