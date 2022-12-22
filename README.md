@@ -12,21 +12,24 @@ pip install asyncio aiohttp requests PIL base64
 ```
 <br>
 Una vez instaladas las dependencias, puedes utilizar el módulo importándolo en tu código:<br>
+<br>
+
+# Opción 1 con parámetros individuales basicos
 
 ```python
 from hubspain.generation import stablediffusion
 
-# Opción 1 con parámetros individuales basicos
-images = stablediffusion(prompt="a cat", height=512, width=512, steps=60, cfg_scale=7, seed="2")
+images = stablediffusion(hsp_apikey,prompt="a cat", height=512, width=512, steps=60, cfg_scale=7, seed="2")
 
-# guarda las imágenes en el directorio actual
+# guarda las imágenes generadas en el directorio actual
 for i, image_bytes in enumerate(images):
     image_bytes.save(f"image{i}_opcion1.png")
 
 ```
+<br>
+# Opción 2 diccionario de parámetros
 
 ```python
-# Opción 2 diccionario de parámetros
     submit_dict = {
         "prompt": "a cat",
         "params": {
@@ -47,7 +50,7 @@ for i, image_bytes in enumerate(images):
     }
 
     # Lanzamos la petición con el diccionario de parámetros
-    images = stablediffusion(submit_dict=submit_dict)
+    images = stablediffusion(hsp_apikey,submit_dict=submit_dict)
 
     # guarda las imágenes en el directorio actual
     for i, image_bytes in enumerate(images):
