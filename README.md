@@ -7,7 +7,7 @@ Este módulo de python3 contiene un set de herramientas utilizadas en los desarr
 Puedes instalarlas utilizando pip:
 <br>
 ```bash
-pip install asyncio aiohttp requests PIL base64
+pip install hubspain
 
 ```
 
