@@ -65,7 +65,7 @@ from hubspain.generation import async_stablediffusion
 ```
 
 ### License
-Este proyecto está autorizado bajo la licencia MIT. Para obtener más información, consulte el archivo de [LICENSE]('https://github.com/flowese/hubspain-tools/blob/main/README.md') file.
+Este proyecto está autorizado bajo la licencia MIT. Para obtener más información, consulte el archivo de [LICENSE]('https://github.com/flowese/hubspain-tools/blob/main/README.md').
 <br>
 
 ### Author
