@@ -12,10 +12,11 @@ pip install asyncio aiohttp requests PIL base64
 ```
 
 <br>
-Una vez instaladas las dependencias, puedes utilizar el módulo importándolo en tu código:<br>
+Una vez instaladas las dependencias, puedes utilizar el módulo importándolo en tu código de la siguiente forma:<br>
 <br>
 
-### Opción 1: Parámetros individuales basicos
+
+Oción 1: Parámetros individuales basicos
 
 ```python
 from hubspain.generation import stablediffusion
@@ -28,7 +29,7 @@ for i, image_bytes in enumerate(images):
 
 ```
 <br>
-### Opción 2: Diccionario de parámetros avanzado.
+Opción 2: Diccionario de parámetros avanzado.
 
 ```python
     submit_dict = {
