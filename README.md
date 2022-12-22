@@ -10,11 +10,12 @@ Puedes instalarlas utilizando pip:
 pip install asyncio aiohttp requests PIL base64
 
 ```
+
 <br>
 Una vez instaladas las dependencias, puedes utilizar el módulo importándolo en tu código:<br>
 <br>
 
-# Opción 1: Parámetros individuales basicos
+### Opción 1: Parámetros individuales basicos
 
 ```python
 from hubspain.generation import stablediffusion
@@ -27,7 +28,7 @@ for i, image_bytes in enumerate(images):
 
 ```
 <br>
-# Opción 2: Diccionario de parámetros avanzado.
+### Opción 2: Diccionario de parámetros avanzado.
 
 ```python
     submit_dict = {
