@@ -16,7 +16,7 @@ Una vez instaladas las dependencias, puedes utilizar el módulo importándolo en
 <br>
 
 
-Oción 1: Parámetros individuales basicos
+Opción 1: Parámetros individuales basicos
 
 ```python
 from hubspain.generation import stablediffusion
